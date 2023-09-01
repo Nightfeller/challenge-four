@@ -8,6 +8,9 @@
     --one: black;
 }
 
+body {
+    height: 100vh;
+}
 
 h1 {
     color: var(--one);
@@ -29,4 +32,32 @@ ul {
     margin: 10px;
     padding: 10px;
     font-weight: bold;
+}
+
+#scores {
+    display: none;
+}
+
+#highscore {
+    display: none;
+}
+
+#scoreDisplay {
+    font-weight: bolder;
+    font-size: x-large;
+    justify-content: center;
+    margin: auto;
+}
+
+button {
+    background-color: darkgreen;
+}
+
+footer {
+    color: var(--one);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
 }
